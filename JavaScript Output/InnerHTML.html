@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerHTML</title>
+    <style>
+        h1{
+            font-size: 3em;
+            text-align: center;
+        }
+        p{
+            font-size: 1.3em;
+        }
+        #demo{
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inner HTML Practical</h1>
+    <p>Used by JavaScript to access an HTML element as used below</p>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML=("Hello!! I have been displayed using JavaScript")
+    </script>
+</body>
+</html>
