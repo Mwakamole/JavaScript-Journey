@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(224, 236, 236);
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+P{
+    font-size: 1.5em;
+}
+#dan{
+     color: brown;
+}
+#age{
+    color: rgb(119, 32, 32);
+}
+#career{
+   color: rgb(68, 102, 12);
+}
