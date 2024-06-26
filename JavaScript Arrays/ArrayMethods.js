@@ -25,3 +25,13 @@ console.log(schools[0]);
 //The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements
 schools.unshift("CUEA");
 console.log(schools);
+
+//Deleting an item in an array
+delete schools[0];
+console.log(schools);
+
+//Other arrays; created with the intention of caoncatenating them
+const myGirls = ["Jackie","Sylvia"];
+const myBoys = ["Sam","Robert"];
+const myChildren = myBoys.concat(myGirls);
+console.log(myChildren);
